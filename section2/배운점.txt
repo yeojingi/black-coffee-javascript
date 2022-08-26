@@ -1,0 +1,15 @@
+1. form 때문에 enter 키에
+2. 이벤트 리스너에서 엔터키를 e.key = "Enter"라고 쓰는 구나
+3. insertAdjacentHTML도 있다
+  beforebegin
+  afterbegin
+  beforeend
+  afterend
+  4가지 중 하나를 첫번째 인자로
+4. querySelectorAll을 통해 li 개수 세는 것.. 와우..
+ 난 당연히, 어떤 변수에 데이터를 넣어놓고 그 데이터에서 세야할 줄 알았다
+5. classList로 클래스명을 배열로 가져올 수 있다
+6. 상위 html element에다가 이벤트를 위임하고, e.target을 이용해서 버튼을 찾아낼 수 있다
+7. remove를 통해 element를 지울 수 있다
+8. event 객체를 사용하지 않을 때는 콜백함수에 함수명을 그대로 넣어서 쓸 수 있다
+  $("#espresso-menu-submit-button").addEventListener("click", addMenuName);
