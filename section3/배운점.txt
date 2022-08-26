@@ -1,0 +1,25 @@
+1. Object 안에 함수를 만들어 넣어서 활용할 수 있다.
+  - 나도 cafe-anajones 만들 적에 각 데이터 별로 object를 만들어서 관리했으면 좋았겠다
+2. 상태 = 변할 수 있는 데이터
+3. 관리할 필요가 없는 데이터도 관리하면 복잡해질 수 있다
+4. 상태값을 this 로 바로 선언하고 초기화 할 수 있다.
+  - (***) 단 이때, 이 함수를 new 로서 만들어야 사용가능
+5. data-menu-id는 menu-id라는 변수를 태그에 심어준다.
+6. 불러올 때는 dataset.menuId를 쓰면 된다
+7. 데이터에 각 함수에서 직접 접근하면 함수의 역할이 불분명해진다.
+  데이터에 접근하는 작용은 한 곳에 몰아주자
+8. new 키워드를 사용하여 생성자 함수를 호출하게 되면 이때의 this는 "만들어질 객체"를 참조한다.
+9. JSON.stringify, JSON.parse로 모듈화가 된다.
+  코드에서 사용하는 변수의 모양을 바꿔도 JSON이 자동으로 serialize, deserialize를 해주게 된다
+10. class에 삼항 연산자를 넣음으로써 렌더링 관리를 하는 군
+11. if 문이 여러 개 있을 때 return 을 일찍하는 것이 좋은 습관이다
+12. button이 여러 개 있을 때 각각 마다 달아주는 게 비효율적이니까 상위 태그에 한번에 달아준다.
+13. new를 하면 각각이 다른 상태를 가질 수 있게 된다. (이게 function expression 과 뭔가 연관이 되는 듯?)
+  동적으로 작동하는 web application의 기본이 상태 관리이다
+14. 상태값이 없으면 필요한 데서 찝어서 변경해야 하는데, 상태로 한번에 관리할 수 있다
+15. localStorage 쓰는 법도 배웠다
+  - LocalStorage has no expiration time,
+  Data in the LocalStorage persist till the user manually delete it.
+  This is the only difference between LocalStorage and SessionStorage.
+  - 와우!
+16. this는 객체 자신을 가리킨다. (맥락에 따라 아닐 때도 있다)

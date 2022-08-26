@@ -1,0 +1,7 @@
+localStorage: URL 별로 브라우저에 저장되는 저장소
+  localStorage.setItem("menu", "espresso");
+  key-value로 저장한다
+
+  localStorage.getItem("menu")
+  key로 가져온다
+
